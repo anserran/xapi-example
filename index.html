@@ -1,0 +1,54 @@
+<html>
+<body>
+<div>
+<button onclick="convert()"> Convert</button>
+</div>
+<textarea id="traces" style="width: 400px; height: 600px">
+    [{
+        "event": "var",
+        "target": "score",
+        "value": 0
+    },
+    {
+        "event": "var",
+        "target": "lifes",
+        "value": 3
+    },
+    {
+        "event": "button",
+        "target": "start"
+    },
+    {
+        "event": "choice",
+        "target": "number_players",
+        "value": "1_player"
+    },
+    {
+        "event": "zone",
+        "value": "1-1"
+    },
+    {
+        "event": "interaction",
+        "target": "goomba"
+    },
+    {
+        "event": "var",
+        "target": "score",
+        "value": 100
+    },
+    {
+        "event": "interaction",
+        "target": "koopa"
+    },
+    {
+        "event": "var",
+        "target": "score",
+        "value": 200
+    }]	
+</textarea>
+<textarea id="xapi" style="width: 800px; height: 600px">
+</textarea>
+</body>
+<script src="xapi.js"></script>
+<script src="main.js"></script>
+</html>
